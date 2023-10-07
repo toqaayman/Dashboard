@@ -1,0 +1,15 @@
+// Here you can add other styles
+/* Add this CSS to your stylesheet */
+.form-container {
+    /* Set a default margin-left (adjust as needed) */
+    margin-left: 0;
+  
+    /* Transition for smooth animation */
+    transition: margin-left 0.3s ease-in-out;
+  }
+  
+  .sidebar-open .form-container {
+    /* Adjust the margin-left when the sidebar is open (adjust as needed) */
+    margin-left: 250px; /* Width of your sidebar */
+  }
+  
